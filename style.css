@@ -1,0 +1,136 @@
+* {
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    padding: 0%;
+    margin: 0px;
+    background-image: url('image/bg.jpg');
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 3px;
+    top: 3px;
+
+}
+
+.left img {
+    width: 55px;
+    padding: 0px 45px;
+    margin-top: 10px;
+    filter: invert(100%);
+
+}
+
+.left div h3 {
+    color: white;
+    width: 70px;
+    padding: 0px 34px;
+    margin: 1px;
+}
+
+.mid {
+    padding: 30px;
+    width: 35%;
+    margin: auto;
+}
+
+.mid li {
+    list-style: none;
+    display: inline;
+}
+
+.mid li a {
+    text-decoration: none;
+    padding: 12px 20px;
+    margin: 10px 10px;
+}
+
+.mid li a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+.right {
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+
+.right .btn {
+    color: black;
+    cursor: pointer;
+    border-radius: 27px;
+    padding: 9px;
+
+}
+
+.right .btn:hover {
+    color: blue;
+}
+
+.bottom {
+    display: inline-block;
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+}
+
+.bottom .btn {
+    color: green;
+    cursor: pointer;
+    border-radius: 27px;
+    padding: 15px;
+}
+
+.container {
+    border: 1px solid blue;
+    width: 500px;
+    height: 550px;
+    margin: 60px;
+}
+
+.container h2 {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 33px;
+    text-decoration: underline;
+}
+
+.container div input {
+    text-align: center;
+    padding: 9px 49px;
+    margin: 4px 75px;
+}
+
+.container label {
+    color: white;
+    padding: 6px 12px;
+    font-weight: bold;
+}
+
+.container label:hover {
+    color: rgb(213, 226, 43);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.container .subbtn {
+    background-color: orange;
+    color: black;
+    margin: 26px 0px;
+    padding: 8px 219px;
+    border-radius: 23px;
+    cursor: pointer;
+}
+
+.container .subbtn:hover {
+    background-color: green;
+    text-decoration: underline;
+}
